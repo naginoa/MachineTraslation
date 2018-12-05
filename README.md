@@ -12,7 +12,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - find papers about sentence alignment.
 - choose the first paper to implement.
-
 [Extracting Parallel Sentences with Bidirectional Recurrent Neural Networks to Improve Machine Translation](https://github.com/tianshuo)
 - Links to latest released version in previous versions.
 - "Why keep a changelog?" section.
