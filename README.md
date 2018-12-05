@@ -6,12 +6,12 @@ My graduation project of Machine Translation from TsingHua Univercity.
 All notable changes to this project will be documented in this file.
 
 ### Changed
-- Update and improvement of Polish translation from [@m-aciek](https://github.com/m-aciek).
+- Update and improvement
 
 ## [0.0.1] - 2018-12-4
 ### Added
 - find papers about sentence alignment.
-- Version navigation.
+- choose the first paper to implement.[@Extracting Parallel Sentences with Bidirectional Recurrent Neural Networks to Improve Machine Translation](https://github.com/tianshuo)
 - Links to latest released version in previous versions.
 - "Why keep a changelog?" section.
 - "Who needs a changelog?" section.
