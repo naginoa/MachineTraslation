@@ -8,9 +8,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Update and improvement of Polish translation from [@m-aciek](https://github.com/m-aciek).
 
-## [1.0.0] - 2017-06-20
+## [0.0.1] - 2018-12-4
 ### Added
-- New visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
+- find papers about sentence alignment.
 - Version navigation.
 - Links to latest released version in previous versions.
 - "Why keep a changelog?" section.
