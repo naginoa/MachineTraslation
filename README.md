@@ -2,10 +2,9 @@
 
 My graduation project of Machine Translation from TsingHua Univercity.
 
-# Changelog
+## Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
 ### Changed
 - Update and improvement of Polish translation from [@m-aciek](https://github.com/m-aciek).
 
