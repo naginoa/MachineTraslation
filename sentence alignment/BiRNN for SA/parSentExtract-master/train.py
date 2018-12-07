@@ -150,8 +150,8 @@ def main(_):
                                      "vocabulary.source")
     target_vocab_path = os.path.join(os.path.dirname(FLAGS.source_train_path),
                                      "vocabulary.target")
-    utils.create_vocabulary(source_vocab_path, FLAGS.source_train_path, FLAGS.source_vocab_size)
-    utils.create_vocabulary(target_vocab_path, FLAGS.target_train_path, FLAGS.target_vocab_size)
+    #utils.create_vocabulary(source_vocab_path, FLAGS.source_train_path, FLAGS.source_vocab_size)
+    #utils.create_vocabulary(target_vocab_path, FLAGS.target_train_path, FLAGS.target_vocab_size)
 
     # Read vocabularies.
     source_vocab, rev_source_vocab = utils.initialize_vocabulary(source_vocab_path)
@@ -188,7 +188,8 @@ def main(_):
     model.build_graph()
 
     # Train  model.
-    with tf.Session() as sess:
+    print('start training model')
+    with tf.Session( ) as sess:
 
         sess.run(tf.global_variables_initializer())
         sess.run(tf.local_variables_initializer())
@@ -205,10 +206,12 @@ def main(_):
         batch_completed = 0
 
         num_iter = int(np.ceil(train_iterator.size / FLAGS.batch_size * FLAGS.num_epochs))
+        print('num_iter', num_iter)
         start_time = time.time()
         print("Training model on {} sentence pairs per epoch:".
             format(train_iterator.size, valid_iterator.size))
 
+        
         for step in xrange(num_iter):
             source, target, label = train_iterator.next_batch(FLAGS.batch_size)
             source_len = utils.sequence_length(source)
@@ -231,6 +234,8 @@ def main(_):
                                                       feed_dict=feed_dict)
             epoch_loss += loss_value
             batch_completed += 1
+            if step % 10 == 0:
+                print('Step {} Loss = {:.6f}'.format(step, loss_value))
             # Write the model's training summaries.
             if step % FLAGS.steps_per_checkpoint == 0:
                 summary = sess.run(model.summaries, feed_dict=feed_dict)
@@ -241,12 +246,16 @@ def main(_):
                 epoch_loss /= batch_completed
                 epoch_f1 = utils.f1_score(epoch_precision, epoch_recall)
                 epoch_completed += 1
-                print("Epoch {} in {:.0f} sec\n"
+                    
+                log = ("Epoch {} in {:.0f} sec\n"
                       "  Training: Loss = {:.6f}, Accuracy = {:.4f}, "
                       "Precision = {:.4f}, Recall = {:.4f}, F1 = {:.4f}"
                       .format(epoch_completed, epoch_time,
                               epoch_loss, epoch_accuracy,
                               epoch_precision, epoch_recall, epoch_f1))
+                print(log)
+                #with open('logs', 'a') as f:
+                #    f.write(log + '\n')
                 # Save a model checkpoint.
                 checkpoint_path = os.path.join(FLAGS.checkpoint_dir, "model.ckpt")
                 model.saver.save(sess, checkpoint_path, global_step=step)
