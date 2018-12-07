@@ -8,6 +8,20 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Update and improvement
 
+## [0.0.4] - 2018-12-7
+### Changed
+- Use our generated vocabulary through the our selfves datasets because the chinese Corpus need to Participle. While english sentences just need to split by space and in chinese it doesn't work well. It can be seen as bellows。
+```
+python
+def sentence_to_token_ids(sentence, vocabulary, max_sequence_length):
+    """Convert a string to a list of integers representing token-ids."""
+    words = sentence.strip().split()
+    if len(words) > max_sequence_length:
+        words = words[:max_sequence_length]
+    return [vocabulary.get(w, UNK_ID) for w in words]
+```
+- 
+
 ## [0.0.3] - 2018-12-6
 - I review the paper and code very very carefully.
 
