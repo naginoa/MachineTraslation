@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 - Update and improvement
 
 ## [0.0.4] - 2018-12-7
+### Added
+- add two python scripts to count the score and generate test.ref
+
 ### Changed
 - Use our generated vocabulary through the our selfves datasets because the chinese Corpus need to Participle. While english sentences just need to split by space and in chinese it doesn't work well. It can be seen as bellows。
 ```
@@ -20,6 +23,8 @@ def sentence_to_token_ids(sentence, vocabulary, max_sequence_length):
     return [vocabulary.get(w, UNK_ID) for w in words]
 ```
 跑模型中英文效果不好的原因有代码在的词库获取就是通过简单的空格，英语法语可以但是中文不行，所以用我们自己分好词的词库，并改代码逻辑！
+ 
+### performance
 - 
 
 ## [0.0.3] - 2018-12-6
