@@ -1,4 +1,4 @@
-# THU_MT
+# MachineTraslation in THU
 
 My graduation project of Machine Translation from TsingHua Univercity.
 
