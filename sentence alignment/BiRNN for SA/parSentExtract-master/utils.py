@@ -8,6 +8,7 @@ import re
 from itertools import product
 from six.moves import xrange
 
+#import pdb
 import numpy as np
 import tensorflow as tf
 
