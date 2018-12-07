@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Update and improvement
 
+## [0.0.3] - 2018-12-6
+- I review the paper and code very very carefully.
+
 ## [0.0.2] - 2018-12-5
 ### Added
 - train data. This model has 15 epoch, batch_size is 128, each epoch need about 2 hours(training on THU server with TF-GPU-1.12, CUDA9 and GTX1080).
