@@ -3,6 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 import os
+import pdb
 
 from itertools import product
 from six.moves import xrange
@@ -56,6 +57,7 @@ def inference(sess, data_iterator, probs_op, placeholders):
 
     num_iter = int(np.ceil(data_iterator.size / FLAGS.batch_size))
     probs = []
+    labelss = []
     for step in xrange(num_iter):
         source, target, label = data_iterator.next_batch(FLAGS.batch_size)
         source_len = utils.sequence_length(source)
@@ -65,11 +67,18 @@ def inference(sess, data_iterator, probs_op, placeholders):
                      x_target: target,
                      labels: label,
                      source_seq_length: source_len,
-                     target_seq_length: target_len}
+                     target_seq_length: target_len}        
 
         batch_probs = sess.run(probs_op, feed_dict=feed_dict)
         probs.extend(batch_probs.tolist())
+        labelss.extend(label.tolist())
+        #pdb.set_trace()
     probs = np.array(probs[:data_iterator.size])
+    labelss = np.array(labelss[:data_iterator.size])
+    with open('y_scores', 'w') as f:
+        for s, l in zip(probs, labelss):
+            f.write(str(s)+'\t'+str(l)+'\n')
+
     return probs
 
 
@@ -86,10 +95,12 @@ def evaluate(sess, source_sentences, target_sentences, references,
             else (source_sentences_ids[i], target_sentences_ids[j], 0.0)
             for i, j in product(range(len(source_sentences)),
                                 range(len(target_sentences)))]
+    print('data lenth', len(data))
 
     data_iterator = utils.TestingIterator(np.array(data, dtype=object))
 
     y_score = inference(sess, data_iterator, probs_op, placeholders)
+
     y_true = data_iterator.data[:, 2].astype(int)
 
     p, r, t = precision_recall_curve(y_true, y_score, pos_label=1)
