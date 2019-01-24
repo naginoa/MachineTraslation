@@ -1,0 +1,162 @@
+ 
+
+
+                                                                           ABCD
+
+ 
+  Description and Composition of the Drug Product  
+
+                                                                     Internal Number 
+  BEA 2180 BR Respimat® Solution for Inhalation                                ADD 774 
+  Active Product and Matching Placebo                                Document Number 
+                                                                               U05-1314-01 
+                                                                     Date 
+                                                                               15 May 2007 
+                                                                     Page 
+                                                                               1 of 4 
+                                   Proprietary confidential information 
+          © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies 
+  This document may not - in full or in part - be passed on, reproduced, published or otherwise used without prior written permission 
+ 
+ 
+ 
+
+
+Investigational Medicinal Product Documentation                                  
+BEA 2180 BR – Version 01 (trial 1205.14) 
+ 
+ 
+
+Description and Composition of the Drug    Internal Number  Page  
+Product                                    ADD 774          2 of 4 
+  Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies 
+ 
+ 
+
+1.     DESCRIPTION OF THE DRUG PRODUCT 
+
+                   
+BEA 2180 BR Respimat  solution for inhalation consists of an aqueous solution of 
+                                          
+BEA 2180 BR filled into a cartridge, and a Respimat  inhalation device. One cartridge is 
+used per device. 
+ 
+       
+Respimat  is a hand held, pocket sized oral inhalation device that uses mechanical energy 
+to generate a slow moving aerosol cloud of medication (“soft mist”) from a metered 
+volume of drug solution. 
+ 
+                                       
+Three dose strengths of BEA 2180 BR Respimat  solution for inhalation, corresponding to 
+50, 100 and 200 µg and a placebo formulation will be used. One dose will be administered 
+by 2 actuations of the inhalation device. In order to conform to international standards for 
+declaration of active substances, the dose strengths refer to the cation, i.e. BEA 2180, as 
+the active moiety of the molecule. 
+ 
+
+2.     COMPOSITION OF THE DRUG PRODUCT 
+
+                              
+2.1    BEA 2180 BR RESPIMAT     SOLUTION FOR INHALATION 
+
+                       
+The BEA 2180 BR Respimat  formulation is an aqueous solution containing 
+BEA 2180 BR as active substance.  
+ 
+                                    
+The compositions of BEA 2180 BR Respimat  solution for inhalation corresponding to the 
+dose strengths of 50, 100, and 200 µg as well as the placebo formulation are given in Table 
+1 and 2. 
+ 
+
+
+ 
+
+Investigational Medicinal Product Documentation          
+BEA 2180 BR – Version 01 (trial 1205.14) 
+ 
+            Description and Composition of the Drug Product   Internal Number               Page  
+                                                              ADD 774                       3 of 4 
+                               Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies 
+  Investigational  Medicinal                                                                                                         
+BEA 2180 BR – Version 01 (trial 1205.14)  Version 01 (trial  – BEA  2180 BR  
+                                                               
+            Table 1            Composition of BEA 2180 BR Respimat  solution for inhalation (Mass per dose) 
+
+                             Mass per dose d Mass per dose d Mass per dose d Mass per dose d
+                Name of           [mg]           [mg]           [mg]            [mg]                       Reference to 
+                                                                                             Function 
+               ingredient     dose strength  dose strength   dose strength    placebo e                     standards 
+                                  50µg          100µg           200µg 
+   Product Documentation  Documentation  Product
+             BEA 2180 a          0.0500         0.1000          0.2000           -         Drug substance    In house 
+                                                                                                             standard 
+             Corresponding       0.0606         0.1211          0.2422           - 
+             amount of                                             
+             BEA 2180 BR a 
+             Benzalkonium 
+                                 0.0023 0.0023 0.0023 0.0023 Preservative Pharm. Eur. 
+             chloride b, c 
+             Edetate disodium 0.0023 0.0023 0.0023 0.0023 Stabilizer Pharm. Eur. 
+             Citric acid, 
+                                 0.0007 0.0007 0.0007 0.0007 Acidifier Pharm. Eur. 
+             anhydrous 
+             Water for 
+                                 ad 22.4        ad 22.4        ad 23.7         ad 22.9        Solvent      Pharm. Eur. 
+             injection f 
+             Nitrogen             q. s.          q. s.           q. s.          q. s.     Gas for filtration Pharm. Eur. 
+
+
+             Total weight 22.4 22.4 23.7 22.9  
+            a   1 g of BEA 2180 corresponds to 1.211 g of BEA 2180 BR 
+            b   The declared amount of benzalkonium chloride refers to the anhydrous substance 
+            c   Benzalkonium chloride may be used as a 50% aqueous solution or solid substance; both comply with the respective monographs of the Pharm. Eur. "Benzalkonium 
+                chloride solution" and "Benzalkonium chloride", respectively. 
+            d   One dose will be administered by 2 actuations of the inhalation device 
+            e   The placebo formulation used for clinical trials is identical to the active product formulation, except that it contains no active drug. 
+            f Alternatively, Purified Water may be used. 
+
+             
+            Description and Composition of the Drug Product   Internal Number               Page  
+                                                              ADD 774                       4 of 4 
+                               Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies 
+  Investigational  Medicinal                                                                                                         
+BEA 2180 BR – Version 01 (trial 1205.14)  Version 01 (trial  – BEA  2180 BR  
+                                                               
+            Table 2            Composition of BEA 2180 BR Respimat  solution for inhalation (Percentage formula)  
+
+                                Percentage      Percentage       Percentage 
+                                                                                Percentage 
+                                 Formula         Formula          Formula                                    Reference 
+                Name of                                                          Formula 
+                                [g/100 ml]       [g/100 ml]      [g/100 ml]                     Function         to 
+               ingredient                                                       [g/100 ml] 
+                               dose strength   dose strength    dose strength           d, e                 standards 
+   Product Documentation  Documentation  Product                                placebo
+                                  50µg d          100µg d         200µg d 
+             BEA 2180 a           0.223            0.446           0.844            -        Drug substance   In house 
+                                                                                                              standard 
+             Corresponding        0.270            0.541           1.022            - 
+             amount of                                                
+             BEA 2180 BR a 
+             Benzalkonium 
+                                  0.010 0.010 0.010 0.010 Preservative Pharm. Eur. 
+             chloride b, c 
+             Edetate disodium     0.010            0.010           0.010          0.010         Stabilizer   Pharm. Eur. 
+             Citric acid, 
+                                  0.003 0.003 0.003 0.003 Acidifier Pharm. Eur. 
+             anhydrous 
+             Water for 
+                                 ad 100.0        ad 100.0         ad 100.0       ad 100.0       Solvent      Pharm. Eur. 
+             injection f 
+             Nitrogen              q. s.           q. s.            q. s.          q. s.     Gas for filtration  Pharm. Eur. 
+   
+             Total weight         100.0            100.0           100.0          100.0  
+            a   1 g of BEA 2180 corresponds to 1.211 g of BEA 2180 BR 
+            b   The declared amount of benzalkonium chloride refers to the anhydrous substance 
+            c   Benzalkonium chloride may be used as a 50% aqueous solution or solid substance; both comply with the respective monographs of the Pharm. Eur. "Benzalkonium 
+                chloride solution" and "Benzalkonium chloride", respectively. 
+            d   One dose will be administered by 2 actuations of the inhalation device. 
+            e   The placebo formulation used for clinical trials is identical to the active product formulation, except that it contains no active drug. 
+            f Alternatively, Purified Water may be used. 
+             

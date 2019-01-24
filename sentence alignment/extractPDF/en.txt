@@ -1,0 +1,97 @@
+﻿ABCD
+DESCRIPTION OF THE DRUG PRODUCT
+BEA 2180 BR Respimat solution for inhalation consists of an aqueous solution of
+BEA 2180 BR filled into a cartridge, and a Respimat inhalation device. One cartridge is used per device.
+Respimat is a hand held, pocket sized oral inhalation device that uses mechanical energy to generate a slow moving aerosol cloud of medication (“soft mist”) from a metered volume of drug solution.
+Three dose strengths of BEA 2180 BR Respimat solution for inhalation, corresponding to 50, 100 and 200 µg and a placebo formulation will be used. One dose will be administered by 2 actuations of the inhalation device. In order to conform to international standards for declaration of active substances, the dose strengths refer to the cation, i.e. BEA 2180, as the active moiety of the molecule.
+COMPOSITION OF THE DRUG PRODUCT
+BEA 2180 BR RESPIMAT SOLUTION FOR INHALATION
+The BEA 2180 BR Respimat formulation is an aqueous solution containing BEA 2180 BR as active substance.
+The compositions of BEA 2180 BR Respimat solution for inhalation corresponding to the dose strengths of 50, 100, and 200 µg as well as the placebo formulation are given in Table 1 and 2.
+Table 1	Composition of BEA 2180 BR Respimat solution for inhalation (Mass per dose)
+1 g of BEA 2180 corresponds to 1.211 g of BEA 2180 BR
+The declared amount of benzalkonium chloride refers to the anhydrous substance
+Benzalkonium chloride may be used as a 50% aqueous solution or solid substance; both comply with the respective monographs of the Pharm. Eur. "Benzalkonium chloride solution" and "Benzalkonium chloride", respectively.
+One dose will be administered by 2 actuations of the inhalation device
+The placebo formulation used for clinical trials is identical to the active product formulation, except that it contains no active drug. f	Alternatively, Purified Water may be used.
+Table 2	Composition of BEA 2180 BR Respimat solution for inhalation (Percentage formula)
+1 g of BEA 2180 corresponds to 1.211 g of BEA 2180 BR
+The declared amount of benzalkonium chloride refers to the anhydrous substance
+Benzalkonium chloride may be used as a 50% aqueous solution or solid substance; both comply with the respective monographs of the Pharm. Eur. "Benzalkonium chloride solution" and "Benzalkonium chloride", respectively.
+One dose will be administered by 2 actuations of the inhalation device.
+The placebo formulation used for clinical trials is identical to the active product formulation, except that it contains no active drug. f	Alternatively, Purified Water may be used.ARCHIVED
+ABCD
+Justification of Specification for the Drug Product
+Proprietary confidential information
+© 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+This document may not - in full or in part - be passed on, reproduced, published or otherwise used without prior written permission!
+ACRONYMS, SYNONYMS AND ABBREVIATIONS
+ACI
+EMEA
+ICH
+NMT
+Ph. Eur.
+Andersen cascade impactor
+European Medicines Agency
+International Conference on Harmonisation of Technical Requirement
+for Registration of Pharmaceuticals for Human Use
+Not more than
+European Pharmacopoeia
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
+Justification of Specification for the Drug Product	Internal Number	Page
+ADD 1358	2 of 6
+Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+TABLE OF CONTENTS
+1.
+2.
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
+Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+INTRODUCTION
+The following report discusses the choice of specifications and acceptance criteria for BEA 2180 BR Respimat® Solution for Inhalation. The report focuses on test parameters, which may affect the efficacy and safety of the drug product:
+Active ingredient degradation
+Assay of the active ingredient
+Microbiological purity
+Spray content uniformity (determined between inhalers)
+Uniformity of Delivered Dose (determined within inhalers)
+Aerodynamic Fine Particle Dose (determined with ACI or by laser diffraction)
+For a tabular summary of all specifications assigned to BEA 2180 Br Respimat solution for inhalation please refer to section P.5.1 'Specifications for the Drug Product, BEA 2180 BR Respimat® Solutions for Inhalation'.
+The test parameters and acceptance criteria are consistent with recommendations in the ICH Q6A guidance and the EMEA Guideline on the Pharmaceutical Quality of Inhalation and Nasal Products where appropriate.
+The acceptance criteria have been set, based on international requirements and results from release, long term and accelerated stability testing of non-clinical and clinical drug product batches. They are reflective of manufacturing and analytical capability.
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
+Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+JUSTIFICATION OF SPECIFICATIONS
+2.1	ACTIVE INGREDIENT DEGRADATION
+A potential degradation of BEA 2180 BR is presented in Figure 1.
+Figure 1:	Potential decomposition pathways of BEA 2180 BR in aqueous solution
+The degradation pathway of BEA 2180 BR in an aqueous system is ester hydrolysis, resulting in the formation of CDBG 258 SE (2,2-Diphenylpropionic acid) and the corresponding alcohol BA 338 BR. BA 338 BR isomerises in small degree to SCH 731 BR.
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
+Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+CDBG 258 SE, BA 338 BR and SCH 731 BR
+Shelf life specifications for the degradation products CDBG 258 SE, BA 338 BR and SCH 731 BR are set at 1.00 % (w/w) according to the qualification threshold of ICH guideline Q3B(R). The maximum daily dose applied in the clinical phase IIB trials is 200 µg resulting in qualification thresholds of 1.0 %.
+The tolerance limits for the release specification [CDBG 258 SE: NMT 0.20 % (w/w); BA 338 BR, SCH 731 BR: NMT 0.50 % (w/w)] are based on the release specification for the drug substance and allow for variability of the analytical method.
+Unidentified BEA 2180 BR degradates
+The shelf life specification limit was set at NMT 0.50% (peak area) corresponding to half of the qualification threshold of ICH Q3B(R). The specifications take into account the variability of the analytical method as well as the acceptance criteria for the sum of all BEA 2180 BR degradation products.
+The tolerance limits for the release specification NMT 0.20% (peak area) reflect the release specification for the drug substance taking into account variability of the analytical method.
+Sum of all BEA 2180 BR degradation products
+The shelf life specification limit was set at NMT 2.50%. This specification limit reflect the low levels of degradation products observed during long term and accelerated stability tests.
+The release specification (NMT 2.00%) was set as the sum of the release specifications for all known degradation products and take into account the variability of the analytical method.
+All specification limits have been assessed toxicologically.
+2.2	ASSAY
+An active ingredient content test is a basic requirement of all drug products, and is used to control the potency of BEA 2180 BR Respimat® solution for inhalation.
+The shelf-life specifications proposed conform to the standard requirements (90-110%). The release specification limits (100% ± 5%) take into account the accuracy and precision within production and analysis. The upper specification limit for shelf-life (110%) is higher than for release (105%) to cover the increase in assay observed during in-use stability testing for the inserted cartridge due to evaporation.
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
+Proprietary confidential information © 2007 Boehringer Ingelheim International GmbH or one or more of its affiliated companies
+2.3	MICROBIOLOGICAL PURITY
+The inhalation solution for BEA 2180 BR Respimat® will be tested for microbiological purity in accordance with the requirements for category 2 from the current edition of Ph. Eur.
+2.4	SPRAY CONTENT UNIFORMITY AND UNIFORMITY OF DELIVERED DOSE
+The test parameters "Spray content uniformity" (1 dose from the start of 10 inhalers each). and "Uniformity of Delivered Dose"(10 doses spread over one inhaler; 3-4-3 test) reflect the intra- and inter-inhaler variability as required by the EMEA Guideline on the Pharmaceutical Quality of Inhalation and Nasal Products. The acceptance criteria are consistent with the Pharm. Eur. (monograph 0671, preparations for inhalation).
+2.5	AERODYNAMIC FINE PARTICLE DOSE
+A determination of the fine particle mass is required according to the EMEA Guideline on the Pharmaceutical Quality of Inhalation and Nasal Products. The test parameter will be performed according to Pharm. Eur. (monograph 0671, preparations for inhalation) by using an ACI as well as by laser diffraction.
+Acceptance criteria for aerodynamic fine particle dose ≤ 5.0 µm (ACI) / fine particle fraction ≤ 5.0 µm (laser diffraction) will be set based on statistical evaluation of results derived from batches used in in vivo studies as well as stability studies. No sufficient data base is available yet.
+Investigational Medicinal Product Documentation
+BEA 2180 BR – Version 01 (trial 1205.14)
