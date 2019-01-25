@@ -1,5 +1,32 @@
 import os
 import pickle
+import string
+
+
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        pass
+
+    try:
+        import unicodedata
+        unicodedata.numeric(s)
+        return True
+    except (TypeError, ValueError):
+        pass
+
+    return False
+
+
+def count_punc(st):
+    flag = 0
+    for s in st:
+        if s in string.punctuation:
+            flag += 1
+
+    return flag
 
 
 def is_chinese(uchar):
@@ -28,11 +55,18 @@ for f in folder_dir_list:
     print(ppt_list)
 
 
+
 f2 = open('D:/pickle/dump.txt', 'rb')
 d = pickle.load(f2)
 f2.close()
 print(d)
 
+print(string.punctuation)
+print(count_punc('The weight of each strip (10 vials) should be 12.5 ± 2 g.'))
+print(len('The weight of each strip (10 vials) should be 12.5 ± 2 g.'))
+print(count_punc('The weight of each strip (10 vials) should be 12.5 ± 2 g.') < 0.3*len('The weight of each strip (10 vials) should be 12.5 ± 2 g.'))
+print(count_punc('___________    ______'))
+print(len('___________    ______'))
+print(count_punc('___________    ______') < 0.3 * len('___________    ______'))
 
-print(is_chinese('e'))
-
+print(is_number('dasdsa'))

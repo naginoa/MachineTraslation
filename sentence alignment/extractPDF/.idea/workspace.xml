@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/extractPDF$batch_para.coverage" NAME="batch_para Coverage Results" MODIFIED="1548062775418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/extractPDF$batch_para.coverage" NAME="batch_para Coverage Results" MODIFIED="1548332369582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extractPDF$Unnamed.coverage" NAME="split Coverage Results" MODIFIED="1546845156139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extractPDF$zh_split.coverage" NAME="zh_split Coverage Results" MODIFIED="1546845183089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extractPDF$PDF2doc.coverage" NAME="PDF2doc Coverage Results" MODIFIED="1547109517009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -19,23 +19,23 @@
     <SUITE FILE_PATH="coverage/extractPDF$char_segment.coverage" NAME="char_segment Coverage Results" MODIFIED="1547016799084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extractPDF$para.coverage" NAME="para Coverage Results" MODIFIED="1548054262943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extractPDF$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1548127606946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/extractPDF$test.coverage" NAME="test Coverage Results" MODIFIED="1548127615779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/extractPDF$test.coverage" NAME="test Coverage Results" MODIFIED="1548331785006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-499332211">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="71" />
+          <entry key="project.closed" value="82" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.3" value="6" />
-          <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="18" />
-          <entry key="project.open.time.6" value="10" />
+          <entry key="project.open.time.4" value="14" />
+          <entry key="project.open.time.5" value="26" />
+          <entry key="project.open.time.6" value="12" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="72" />
+          <entry key="project.opened" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,14 +56,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="py" value="3712" />
+          <entry key="py" value="4631" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="3712" />
+          <entry key="Python" value="4631" />
         </counts>
       </usages-collector>
     </session>
@@ -73,17 +73,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docx_para.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/para_batch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="483">
+              <caret line="42" column="115" lean-forward="true" selection-start-line="42" selection-start-column="115" selection-end-line="42" selection-end-column="115" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_pickle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="925">
+              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -100,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docx_rename.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -124,10 +127,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="425">
+              <caret line="19" column="16" selection-start-line="5" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <marker date="1548331481383" expanded="true" signature="316:424" ph="..." />
               </folding>
             </state>
           </provider>
@@ -213,10 +217,10 @@
         <option value="D:/pdf_test/fliter.py" />
         <option value="$PROJECT_DIR$/delete_ppt.py" />
         <option value="$PROJECT_DIR$/docx_para.py" />
-        <option value="$PROJECT_DIR$/para_batch.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/get_pickle.py" />
         <option value="$PROJECT_DIR$/docx_rename.py" />
+        <option value="$PROJECT_DIR$/get_pickle.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/para_batch.py" />
       </list>
     </option>
   </component>
@@ -275,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rename">
+  <component name="RunManager" selected="Python.batch_para">
     <configuration name="PDF2doc" type="PythonConfigurationType" factoryName="Python">
       <module name="extractPDF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -526,12 +530,12 @@
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20266667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31344903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,11 +567,6 @@
           <url>file://$PROJECT_DIR$/blank_remove.py</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/para_batch.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/docx_rename.py</url>
@@ -696,25 +695,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docx_para.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/para_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="325">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_pickle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="925">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docx_rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -730,10 +729,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="425">
+          <caret line="19" column="16" selection-start-line="5" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <marker date="1548331481383" expanded="true" signature="316:424" ph="..." />
           </folding>
         </state>
       </provider>
@@ -766,10 +766,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docx_rename.py">
+    <entry file="file://$PROJECT_DIR$/para_batch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="483">
+          <caret line="42" column="115" lean-forward="true" selection-start-line="42" selection-start-column="115" selection-end-line="42" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
