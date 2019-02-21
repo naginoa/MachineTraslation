@@ -1,7 +1,9 @@
-from docx import Document
 import os
 import pickle
 import string
+from docx import Document
+from zh_split import zh_split_each_sentence
+from en_split import en_split_each_sentence
 
 
 def is_number(s):
@@ -77,7 +79,45 @@ def batch_store_para(rootpath, storepath):
                         each_store_para(rootpath + i + '/' + file, storepath + i + '/')
 
 
+def batch_split(senpath, splitpath):
+    f2 = open('D:/pickle/dump.txt', 'rb')
+    pickle_dict = pickle.load(f2)
+    f2.close()
+    for i in pickle_dict.keys():
+        for p in pickle_dict[i]:
+            if not os.path.exists(splitpath + i):
+                os.mkdir(splitpath + i)
+            #print(p[0], p[1])
+            j = 0
+            while (j <= len(os.listdir(senpath + i)) - 2):
+                file = os.listdir(senpath + i)[j]
+                if ('@eng' in file and file[:-8] == p[0][:-4]):
+                    file_bak = os.listdir(senpath + i)[j + 1]
+                    if file_bak[:-4] == p[1][:-4]:
+                        print('en--', file)
+                        en_split_each_sentence(senpath + i + '/' + file, splitpath + i + '/')
+                        print('zh--', file_bak)
+                        zh_split_each_sentence(senpath + i + '/' + file_bak, splitpath + i + '/')
+                elif file[:-4] == p[0][:-4]:
+                    file_bak = os.listdir(senpath + i)[j + 1]
+                    if '@eng' not in file_bak and file_bak[:-4] == p[1][:-4]:
+                        print('en--', file)
+                        en_split_each_sentence(senpath + i + '/' + file, splitpath + i + '/')
+                        print('zh--', file_bak)
+                        zh_split_each_sentence(senpath + i + '/' + file_bak, splitpath + i + '/')
+                    else:
+                        print('en--', file_bak)
+                        en_split_each_sentence(senpath + i + '/' + file_bak, splitpath + i + '/')
+                        print('zh--', file)
+                        zh_split_each_sentence(senpath + i + '/' + file, splitpath + i + '/')
+                j += 2
+
+
 rootpath = 'D:/cooked_data/'
 storepath = 'D:/test/'
+splitpath = 'D:/split/'
 #each_store_para(rootpath + '200801/' + '08- formulation of DP@eng.docx', storepath)
-batch_store_para(rootpath, storepath)
+#batch_store_para(rootpath, storepath)
+#zh_split_each_sentence('D:/test/200801/Encrypted ProTime译稿.txt', 'D:/')
+#en_split_each_sentence('D:/test/200807/1200.32 Protocol 25July08@eng.txt', 'D:/')
+batch_split(storepath, splitpath)
