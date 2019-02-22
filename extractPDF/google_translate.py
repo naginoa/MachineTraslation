@@ -122,7 +122,6 @@ transpath = 'D:/translation/'
 batch_trans(splitpath, transpath)
 
 
-
 '''flag = 0
 for i in getText(sss):
     #print(flag)
