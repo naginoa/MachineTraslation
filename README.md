@@ -8,6 +8,19 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Update and improvement
 
+
+## [0.1.0] - 2019-03-04
+### Added
+- Add the function of extracting ppt.
+- baseline：bleualign.
+- pipeline were done.
+
+### Changed
+-
+
+### Removed
+- 
+
 ## [0.0.4] - 2018-12-7
 ### Added
 - add two python scripts to count the score and generate test.ref
@@ -82,16 +95,3 @@ the numbers of score_count > 0.7 is 1
 
 ### Removed
 - 
-
-## [0.1.0] - 2019-03-04
-### Added
-- Add the function of extracting ppt.
-- baseline：bleualign.
-- pipeline were done.
-
-### Changed
--
-
-### Removed
-- 
-
