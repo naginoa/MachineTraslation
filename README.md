@@ -82,3 +82,16 @@ the numbers of score_count > 0.7 is 1
 
 ### Removed
 - 
+
+## [0.1.0] - 2019-03-04
+### Added
+- Add the function of extracting ppt.
+- baseline：bleualign.
+- pipeline were done.
+
+### Changed
+-
+
+### Removed
+- 
+
