@@ -1,8 +1,8 @@
 import os
 
 
-resultpath = 'D:/final_result/'
-mergepath = 'E:/result/'
+resultpath = 'D:/v2_extract/final_result/'
+mergepath = 'D:/v2_extract/merge_result/'
 
 
 folder_dir_list = os.listdir(resultpath)

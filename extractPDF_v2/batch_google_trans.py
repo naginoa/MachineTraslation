@@ -8,12 +8,13 @@ def getHTMLText(url):
     kv = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 LBBROWSER'}
     proxy_list = [
         'http://124.192.106.247:3128',
-        'http://121.69.10.62:9090',
+        'http://175.102.3.98:8089',
         'http://14.29.2.40:80',
-        'http://31.131.67.14:8080',
+        'http://113.200.214.164:9999',
         'http://103.61.153.100:53281',
         'http://117.158.57.2:3128',
-        'http://101.89.91.147:80',
+        'http://122.136.212.132:53281',
+        'http://125.46.0.62:53281',
     ]
     proxy_ip = random.choice(proxy_list)
     proxies = {'http': proxy_ip}

@@ -28,6 +28,7 @@ def remove_space(bleupath, resultpath):
                             f2.write(writeline)
 
 
-bleupath = 'D:/result_bleu/'
-resultpath = 'D:/final_result/'
-remove_space(bleupath, resultpath)
+if __name__ == "__main__":
+    bleupath = 'D:/v2_extract/result_bleu/'
+    resultpath = 'D:/v2_extract/final_result/'
+    remove_space(bleupath, resultpath)
